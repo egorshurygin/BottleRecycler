@@ -4,7 +4,7 @@ from app.TG.CodeFromDisplay import way, encode_in_message_on_display, decode_mes
 from random import *
 from sqlite3 import *
 
-bot = telebot.TeleBot("7346528404:AAGWs4_iw2ipTxpBlz2yvObCvtDE4m1G0fo")
+bot = telebot.TeleBot("token")
 
 
 @bot.message_handler(commands=['start'])
